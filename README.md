@@ -2,12 +2,13 @@
 
 Implementation of the methods described in [Robust Distortion-free Watermarks for Language Models](https://arxiv.org/abs/).
 
-[Supplemental material](https://crfm.stanford.edu/2023/07/28/watermarking.html) including an in-browser demo of the watermark detector.
 by [__Rohith Kuditipudi__](https://web.stanford.edu/~rohithk/), [__John Thickstun__](https://johnthickstun.com/), [__Tatsunori Hashimoto__](https://thashim.github.io/), and [__Percy Liang__](https://cs.stanford.edu/~pliang/).
 
 -------------------------------------------------------------------------------------
 
-This repository provides code that implements the watermarks described in [Robust Distortion-free Watermarks for Language Models](https://arxiv.org/abs/). We provide standalone Python code for generating and detecting text with a watermark, using our recommended instantiation of the watermarking strategies discussed in the paper in `watermark.py`. We also provide the Javascript implementation of the detector `detect.js` used for the [in-browser demo](https://crfm.stanford.edu/2023/07/28/watermarking.html).
+This repository provides code that implements the watermarks described in [Robust Distortion-free Watermarks for Language Models](https://arxiv.org/abs/). See also the [blog post](https://crfm.stanford.edu/2023/07/28/watermarking.html), which includes an in-browser demo of the watermark detector.
+
+We provide standalone Python code for generating and detecting text with a watermark, using our recommended instantiation of the watermarking strategies discussed in the paper in `watermark.py`. We also provide the Javascript implementation of the detector `detect.js` used for the [in-browser demo](https://crfm.stanford.edu/2023/07/28/watermarking.html).
 
 To generate `m` tokens of text from a model (e.g., `facebook/opt-1.3b`) with watermark key `42`, run:
 
