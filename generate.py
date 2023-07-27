@@ -1,9 +1,5 @@
 import os, argparse
 
-HF_HOME="/nlp/scr/jthickstun/watermarking"
-os.environ["HF_HOME"] = HF_HOME
-os.environ["TRANSFORMERS_CACHE"] = os.path.join(HF_HOME, 'cache')
-
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from mersenne import mersenne_rng
