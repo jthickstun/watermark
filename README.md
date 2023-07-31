@@ -1,12 +1,12 @@
 # Robust Distortion-free Watermarks for Language Models
 
-Implementation of the methods described in [Robust Distortion-free Watermarks for Language Models](https://arxiv.org/abs/).
+Implementation of the methods described in [Robust Distortion-free Watermarks for Language Models](https://arxiv.org/abs/2307.15593).
 
 by [__Rohith Kuditipudi__](https://web.stanford.edu/~rohithk/), [__John Thickstun__](https://johnthickstun.com/), [__Tatsunori Hashimoto__](https://thashim.github.io/), and [__Percy Liang__](https://cs.stanford.edu/~pliang/).
 
 -------------------------------------------------------------------------------------
 
-This repository provides code that implements the watermarks described in [Robust Distortion-free Watermarks for Language Models](https://arxiv.org/abs/). See also the [blog post](https://crfm.stanford.edu/2023/07/30/watermarking.html), which includes an in-browser demo of the watermark detector.
+This repository provides code that implements the watermarks described in [Robust Distortion-free Watermarks for Language Models](https://arxiv.org/abs/2307.15593). See also the [blog post](https://crfm.stanford.edu/2023/07/30/watermarking.html), which includes an in-browser demo of the watermark detector.
 
 We provide standalone Python code for generating and detecting text with a watermark, using our recommended instantiation of the watermarking strategies discussed in the paper in `generate.py` and `detect.py`. We also provide the Javascript implementation of the detector `detect.js` used for the [in-browser demo](https://crfm.stanford.edu/2023/07/30/watermarking.html).
 
@@ -32,7 +32,7 @@ See the [experiments](experiments) directory (forthcoming) for details on reprod
 @article{kuditipudi2023robust,
   title={Robust Distortion-free Watermarks for Language Models},
   author={Kuditipudi, Rohith and Thickstun, John and Hashimoto, Tatsunori and Liang, Percy},
-  journal={arXiv preprint},
+  journal={arXiv preprint arXiv:2307.15593},
   year={2023}
 }
 ```
