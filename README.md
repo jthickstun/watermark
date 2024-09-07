@@ -57,7 +57,7 @@ For example, to reproduce Figure 2a in the paper using the OPT-1.3B model, run
 ./experiments/scripts/experiment-1.sh <save directory path> facebook/opt-1.3b 
 ```
 
-To reproduce Figure 5b in the paper using the LLaMA-7B model with `m = 35`, run
+To reproduce Figure 4b in the paper using the LLaMA-7B model with `m = 35`, run
 
 ```
 ./experiments/scripts/experiment-3.sh arxiv-results/experiment-3/llama huggyllama/llama-7b 35
